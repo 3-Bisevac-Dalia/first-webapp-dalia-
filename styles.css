@@ -1,0 +1,118 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+
+html{
+    background-color: rgb(236, 196, 215);
+ }
+ body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(270, 235, 245);
+    color: rgb(114, 14, 71);
+ }
+ header{
+    background-color: rgb(234, 192, 210);
+    padding: 5px;
+    color: rgb(197, 163, 178);
+    border-bottom: double rgb(255, 255, 255) 8px;
+ }
+ nav ul{
+   font-family: 'Times New Roman', Times, serif; 
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    flex-wrap: wrap;
+ }
+ nav ul li a{
+   font-family: 'Times New Roman', Times, serif; 
+   color: rgb(114, 14, 71);
+    text-decoration: none;
+    padding: 10px;
+ }
+ nav ul li a:hover{
+    background-color: rgb(215, 116, 169);
+ }
+ footer{
+    background-color: rgb(218, 145, 184);
+    color: white;
+    padding: 20px;
+    text-align: center;
+ 
+ 
+ }
+ main{
+    text-align: center;
+ }
+
+ .ranking-table {
+   padding: 2em;
+   background-color: rgb(255, 228, 238);
+   border-radius: 12px;
+   max-width: 800px;
+   margin: 2em auto;
+   box-shadow: 0 4px 10px rgba(255, 105, 180, 0.2);
+ }
+
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   font-family:'Times New Roman', Times, serif;
+   font-size: 1.2em;
+   background-color: white;
+ }
+
+ th, td {
+   padding: 12px;
+   text-align: center;
+   border-bottom: 1px solid rgb(234, 192, 210);
+ }
+
+ th{
+   background-color: rgb(215, 116, 169);
+   color: white;
+   font-weight: bold;
+ }
+
+ tr:nth-child(even) {
+   background-color: rgb(255, 240, 245);
+ }
+
+ tr:hover {
+   background-color: rgb(219, 178, 192);
+   transition: 0.3s;
+ }
+ 
+ .movie-description {
+   background-color: rgb(255, 240, 245);
+   padding: 2em;
+   border-radius: 10px;
+   margin-bottom: 2em;
+   box-shadow: 0 4px 10px rgba(255, 105, 180, 0.1);
+ }
+
+ .movie-description:hover {
+   transform: scale(1.02);
+   transition: 0.3s ease;
+ }
+
+ .movie-description:last-child {
+   margin-bottom: 0;
+ }
+
+ p strong {
+   font-size: 1.3em;
+   color: rgb(215, 116, 169);
+ }
+
+ .movie-description p {
+   font-size: 1.2em;
+   color: rgb(114, 14, 71);
+ }
+
+ .movie-description .review {
+   font-size: 1.1em;
+   color: rgb(197, 163, 178);
+   margin-top: 1.5em;
+ }
