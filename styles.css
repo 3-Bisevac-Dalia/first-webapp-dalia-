@@ -116,3 +116,15 @@ html{
    color: rgb(197, 163, 178);
    margin-top: 1.5em;
  }
+
+ img{
+  border: 5px solid rgb(234, 192, 210);
+  border-radius:10px;
+  box-shadow: 0 4px 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px;
+ }
