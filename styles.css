@@ -136,6 +136,7 @@ html{
   align-items: center;
   text-align: center;
  }
+
  #favoriteMovie{
   padding: 5px;
   font-size:16px;
@@ -144,6 +145,7 @@ html{
   margin-top: 15px;
   text-align: center;
  }
+
  button {
   padding: 5px;
   font-size: 16px;
